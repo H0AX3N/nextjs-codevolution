@@ -1,4 +1,3 @@
-
 import ComboboxFormDemo from "@/components/ComboboxFormDemo";
 import { Button } from "@/components/ui/button"
 import {
@@ -18,6 +17,9 @@ export default function Home() {
   return (
     <div className="h-screen border flex flex-col items-center justify-center gap-10 underline">
       <Link href={'/login'}>Go to Form page</Link>
+      <Link href={'/dashboard'}>Go to Dashboard</Link>
+      <Link href={'/profile'}>Go to Profile</Link>
+      <Link href={'/about'}>Go to About</Link>
       <ComboboxFormDemo />
     </div>
   );
