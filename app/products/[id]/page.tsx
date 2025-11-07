@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default async function page({ 
     params 
 } : {
@@ -5,8 +7,9 @@ export default async function page({
 }) {
     let {id} = await params
     return (
-        <div>
+        <div className="flex flex-col">
             Product id is {id}
+            <Link href="/">Home</Link>
         </div>
     )
 }
