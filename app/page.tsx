@@ -21,6 +21,8 @@ export default function Home() {
       <Link href={'/dashboard'}>Go to Dashboard</Link>
       <Link href={'/profile'}>Go to Profile</Link>
       <Link href={'/about'}>Go to About</Link>
+      <Link href='/articles/breaking-news-123?lang=en'>Read in English</Link>
+      <Link href='/articles/breaking-news-123?lang=es'>Read in Spanish</Link>
       <ComboboxFormDemo />
     </div>
   );
