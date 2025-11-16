@@ -16,8 +16,8 @@ export default function NewsArticle({
             <h1>News article {articleId}</h1>
             <p>Reading in {lang}</p>
             <div className='flex gap-4 mt-4'>
-                <Link href={`${articleId}?lang=en`} className='underline'>English</Link>
-                <Link href={`${articleId}?lang=es`} className='underline'>Spanish</Link>
+                <Link href={`/articles/${articleId}?lang=en`} className='underline'>English</Link>
+                <Link href={`/articles/${articleId}?lang=es`} className='underline'>Spanish</Link>
             </div>
         </>
     )
